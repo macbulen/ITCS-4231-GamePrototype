@@ -59,7 +59,7 @@ public class HumanoidLandInput : MonoBehaviour
 
    private void Update()
    {
-      ChangeCameraWasPressedThisFrame = _input.HumanoidLand.ChangeCamera.WasPressedThisFrame();
+      //ChangeCameraWasPressedThisFrame = _input.HumanoidLand.ChangeCamera.WasPressedThisFrame();
    }
 
    private void SetMove(InputAction.CallbackContext ctx)
